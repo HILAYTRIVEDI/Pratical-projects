@@ -23,6 +23,6 @@
 - *Solidity*
 
 #### This project are based on the the following concepts :
-- ##### Web Development
-- ##### Blockchain Data
-- ##### Analysis
+- Web Development
+- Blockchain Data
+- Analysis
