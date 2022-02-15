@@ -3,7 +3,7 @@
 
 #### Mordern day web sites build on the solution stacks like :
 - **WordPress** [[Read about Wordpress]](hhttps://en.wikipedia.org/wiki/WordPressttp:// "[Read about Wordpress]")
-- **MERN** [[Read about MERN]](https://en.wikipedia.org/wiki/MEAN_(solution_stack)
+- **MERN** [[Read about MERN]](https://en.wikipedia.org/wiki/MEAN_(solution_stack) "[Read about MERN]")
 
 #### This repository contains projects based on the cutting edge Web technologies like :
 
