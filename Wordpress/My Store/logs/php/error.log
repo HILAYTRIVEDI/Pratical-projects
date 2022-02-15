@@ -91,3 +91,77 @@
 [15-Feb-2022 05:42:46 UTC] PHP  27. include() /Users/hilaytrivedi-md/Desktop/Pratical Projects/Wordpress/My Store/app/public/wp-content/plugins/elementor-pro/plugin.php:140
 [15-Feb-2022 05:42:46 UTC] PHP  28. spl_autoload_call() /Users/hilaytrivedi-md/Desktop/Pratical Projects/Wordpress/My Store/app/public/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-section-document.php:8
 [15-Feb-2022 05:42:46 UTC] PHP  29. ElementorPro\Plugin->autoload() /Users/hilaytrivedi-md/Desktop/Pratical Projects/Wordpress/My Store/app/public/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-section-document.php:8
+[15-Feb-2022 08:49:53 UTC] Sync process for Gutenberg Blocks has started.
+[15-Feb-2022 08:49:53 UTC] CATEGORY:Importing categories..
+[15-Feb-2022 08:49:53 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[15-Feb-2022 08:49:53 UTC] CATEGORY:Completed category import.
+[15-Feb-2022 08:49:53 UTC] BLOCK: Getting Total Blocks
+[15-Feb-2022 08:49:53 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[15-Feb-2022 08:49:53 UTC] BLOCK: Requests count 4
+[15-Feb-2022 08:49:53 UTC] BLOCK: Importing request 1 ..
+[15-Feb-2022 08:49:53 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[15-Feb-2022 08:49:53 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[15-Feb-2022 08:49:53 UTC] BLOCK: Completed request 1
+[15-Feb-2022 08:49:53 UTC] BLOCK: Importing request 2 ..
+[15-Feb-2022 08:49:53 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[15-Feb-2022 08:49:54 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[15-Feb-2022 08:49:54 UTC] BLOCK: Completed request 2
+[15-Feb-2022 08:49:54 UTC] BLOCK: Importing request 3 ..
+[15-Feb-2022 08:49:54 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[15-Feb-2022 08:49:54 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[15-Feb-2022 08:49:54 UTC] BLOCK: Completed request 3
+[15-Feb-2022 08:49:54 UTC] BLOCK: Importing request 4 ..
+[15-Feb-2022 08:49:54 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[15-Feb-2022 08:49:54 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[15-Feb-2022 08:49:54 UTC] BLOCK: Completed request 4
+[15-Feb-2022 08:49:54 UTC] SITE: Getting Total Sites
+[15-Feb-2022 08:49:54 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[15-Feb-2022 08:49:54 UTC] SITE: Request count 1
+[15-Feb-2022 08:49:54 UTC] SITE: Importing request 1 ..
+[15-Feb-2022 08:49:54 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[15-Feb-2022 08:49:54 UTC] SITE: Storing in option ast-block-templates-sites-1
+[15-Feb-2022 08:49:54 UTC] SITE: Completed request 1
+[15-Feb-2022 08:49:54 UTC] Sync process for Gutenberg Blocks is done.
+[15-Feb-2022 08:50:07 UTC] Source - https://websitedemos.net/wp-content/uploads/2021/05/thumb-2.jpg
+[15-Feb-2022 08:50:07 UTC] BATCH - SKIP Image {already imported from xml} - https://websitedemos.net/wp-content/uploads/2021/05/thumb-2.jpg
+[15-Feb-2022 08:50:07 UTC] Log - {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/2021\/05\/thumb-2.jpg","id":0}
+[15-Feb-2022 08:50:08 UTC] thumb-2.jpg
+[15-Feb-2022 08:50:08 UTC] {"file":"\/Users\/hilaytrivedi-md\/Desktop\/Pratical Projects\/Wordpress\/My Store\/app\/public\/wp-content\/uploads\/2022\/02\/thumb-2.jpg","url":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/thumb-2.jpg","type":"image\/jpeg","error":false}
+[15-Feb-2022 08:50:08 UTC] {"post_title":"thumb-2.jpg","guid":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/thumb-2.jpg"}
+[15-Feb-2022 08:50:08 UTC] BATCH - SUCCESS Image {Imported} - http://my-store.local/wp-content/uploads/2022/02/thumb-2.jpg
+[15-Feb-2022 08:50:08 UTC] Source - https://websitedemos.net/wp-content/uploads/2021/05/thumb-1.jpg
+[15-Feb-2022 08:50:08 UTC] BATCH - SKIP Image {already imported from xml} - https://websitedemos.net/wp-content/uploads/2021/05/thumb-1.jpg
+[15-Feb-2022 08:50:08 UTC] Log - {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/2021\/05\/thumb-1.jpg","id":0}
+[15-Feb-2022 08:50:08 UTC] thumb-1.jpg
+[15-Feb-2022 08:50:08 UTC] {"file":"\/Users\/hilaytrivedi-md\/Desktop\/Pratical Projects\/Wordpress\/My Store\/app\/public\/wp-content\/uploads\/2022\/02\/thumb-1.jpg","url":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/thumb-1.jpg","type":"image\/jpeg","error":false}
+[15-Feb-2022 08:50:08 UTC] {"post_title":"thumb-1.jpg","guid":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/thumb-1.jpg"}
+[15-Feb-2022 08:50:08 UTC] BATCH - SUCCESS Image {Imported} - http://my-store.local/wp-content/uploads/2022/02/thumb-1.jpg
+[15-Feb-2022 08:50:08 UTC] Source - https://websitedemos.net/wp-content/uploads/2021/05/service-thumb-3.jpg
+[15-Feb-2022 08:50:08 UTC] BATCH - SKIP Image {already imported from xml} - https://websitedemos.net/wp-content/uploads/2021/05/service-thumb-3.jpg
+[15-Feb-2022 08:50:08 UTC] Log - {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/2021\/05\/service-thumb-3.jpg","id":0}
+[15-Feb-2022 08:50:09 UTC] service-thumb-3.jpg
+[15-Feb-2022 08:50:09 UTC] {"file":"\/Users\/hilaytrivedi-md\/Desktop\/Pratical Projects\/Wordpress\/My Store\/app\/public\/wp-content\/uploads\/2022\/02\/service-thumb-3.jpg","url":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/service-thumb-3.jpg","type":"image\/jpeg","error":false}
+[15-Feb-2022 08:50:09 UTC] {"post_title":"service-thumb-3.jpg","guid":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/service-thumb-3.jpg"}
+[15-Feb-2022 08:50:09 UTC] BATCH - SUCCESS Image {Imported} - http://my-store.local/wp-content/uploads/2022/02/service-thumb-3.jpg
+[15-Feb-2022 08:50:09 UTC] Source - https://websitedemos.net/wp-content/uploads/2021/05/service-thumb-2.jpg
+[15-Feb-2022 08:50:09 UTC] BATCH - SKIP Image {already imported from xml} - https://websitedemos.net/wp-content/uploads/2021/05/service-thumb-2.jpg
+[15-Feb-2022 08:50:09 UTC] Log - {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/2021\/05\/service-thumb-2.jpg","id":0}
+[15-Feb-2022 08:50:09 UTC] service-thumb-2.jpg
+[15-Feb-2022 08:50:09 UTC] {"file":"\/Users\/hilaytrivedi-md\/Desktop\/Pratical Projects\/Wordpress\/My Store\/app\/public\/wp-content\/uploads\/2022\/02\/service-thumb-2.jpg","url":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/service-thumb-2.jpg","type":"image\/jpeg","error":false}
+[15-Feb-2022 08:50:09 UTC] {"post_title":"service-thumb-2.jpg","guid":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/service-thumb-2.jpg"}
+[15-Feb-2022 08:50:09 UTC] BATCH - SUCCESS Image {Imported} - http://my-store.local/wp-content/uploads/2022/02/service-thumb-2.jpg
+[15-Feb-2022 08:50:09 UTC] Source - https://websitedemos.net/wp-content/uploads/2021/05/thumb-3.jpg
+[15-Feb-2022 08:50:09 UTC] BATCH - SKIP Image {already imported from xml} - https://websitedemos.net/wp-content/uploads/2021/05/thumb-3.jpg
+[15-Feb-2022 08:50:09 UTC] Log - {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/2021\/05\/thumb-3.jpg","id":0}
+[15-Feb-2022 08:50:09 UTC] thumb-3.jpg
+[15-Feb-2022 08:50:09 UTC] {"file":"\/Users\/hilaytrivedi-md\/Desktop\/Pratical Projects\/Wordpress\/My Store\/app\/public\/wp-content\/uploads\/2022\/02\/thumb-3.jpg","url":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/thumb-3.jpg","type":"image\/jpeg","error":false}
+[15-Feb-2022 08:50:09 UTC] {"post_title":"thumb-3.jpg","guid":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/thumb-3.jpg"}
+[15-Feb-2022 08:50:09 UTC] BATCH - SUCCESS Image {Imported} - http://my-store.local/wp-content/uploads/2022/02/thumb-3.jpg
+[15-Feb-2022 08:50:09 UTC] Source - https://websitedemos.net/wp-content/uploads/2021/05/thumb-4.jpg
+[15-Feb-2022 08:50:09 UTC] BATCH - SKIP Image {already imported from xml} - https://websitedemos.net/wp-content/uploads/2021/05/thumb-4.jpg
+[15-Feb-2022 08:50:09 UTC] Log - {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/2021\/05\/thumb-4.jpg","id":0}
+[15-Feb-2022 08:50:09 UTC] thumb-4.jpg
+[15-Feb-2022 08:50:09 UTC] {"file":"\/Users\/hilaytrivedi-md\/Desktop\/Pratical Projects\/Wordpress\/My Store\/app\/public\/wp-content\/uploads\/2022\/02\/thumb-4.jpg","url":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/thumb-4.jpg","type":"image\/jpeg","error":false}
+[15-Feb-2022 08:50:09 UTC] {"post_title":"thumb-4.jpg","guid":"http:\/\/my-store.local\/wp-content\/uploads\/2022\/02\/thumb-4.jpg"}
+[15-Feb-2022 08:50:09 UTC] BATCH - SUCCESS Image {Imported} - http://my-store.local/wp-content/uploads/2022/02/thumb-4.jpg
+[15-Feb-2022 09:47:41 UTC] Key Id and Key Secret are required.
