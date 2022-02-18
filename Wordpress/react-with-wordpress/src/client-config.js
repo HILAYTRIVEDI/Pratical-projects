@@ -1,5 +1,5 @@
 const clientConfig = {
-	siteUrl: 'https://codeytek.com',
+	siteUrl: 'http://localhost:8888/wordpress'
 };
 
 export default clientConfig;

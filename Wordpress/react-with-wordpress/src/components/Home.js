@@ -25,26 +25,23 @@ class Home extends React.Component {
 
 	componentDidMount() {
 		const wordPressSiteURL = clientConfig.siteUrl;
-
 		this.setState( { loading: true }, () => {
 			axios.get( `${wordPressSiteURL}/wp-json/wp/v2/posts/` )
 				.then( res => {
-					if ( 200 === res.status ) {
-						if ( res.data.length ) {
-							this.setState( { loading: false, posts: res.data } );
-						} else {
-							this.setState( { loading: false, error: 'No Posts Found' } );
-						}
+					if ( res.data.length ) {
+						this.setState( { loading: false, posts: res.data } );
+					} else {
+						this.setState( { loading: false, error: 'No Posts Found' } );
 					}
-
 				} )
-				.catch( err => this.setState( { loading: false, error: err } ) );
+				.catch( err => this.setState( { loading: false, error: err.response.data.message } ) );
 		} )
 	}
 
 	render() {
 
 		const { loading, posts, error } = this.state;
+		console.warn( posts );
 
 		return(
 			<React.Fragment>

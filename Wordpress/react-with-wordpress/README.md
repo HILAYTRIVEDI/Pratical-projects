@@ -1,46 +1,14 @@
 # React with WordPress
 
-:fire: Example of react application with WordPress REST API
-
-******* PLEASE STAR MY REPO TO SUPPORT MY WORK 🙏 ******
-
-Please follow me 🙏 on [twitter](https://twitter.com/imranhsayed)
-
-## Dashboard Demo
-
-![](demo-dashboard.gif)
-
-## Pagination :video_camera:
-![](pagination.gif)
-
-## Post Listings Demo :video_camera:
-
-![](render-posts.gif)
-
-## [Live Demo](https://react-with-wordpress.netlify.com/)
-
-## Features
-
-1. CRUD operation with WordPress REST API
-2. Authentication with JWT ( Login Logout )
-3. Accessing public and private routes 
-4. Handing WordPress REST API custom end points.
-5. Creating Dashboard with React for CRUD operation.
-6. Pagination
+:fire: Example of react application to access WordPress REST API
 
 ## Installation
 
-1. Clone this repo in `git clone https://github.com/imranhsayed/react-with-wordpress`
+1. Clone this repo in `git clone https://github.com/imranhsayed/react-with-wordpress/`
 
 2. `git checkout branchname`
 
 3. Run `npm install`
-
-## Add [REST API ENDPOINTS WordPress Plugin](https://github.com/imranhsayed/rest-api-endpoints)
-
-* Clone the [REST API ENDPOINTS](https://github.com/imranhsayed/rest-api-endpoints) plugin in your WordPress plugin directory.
-
-`git clone git@github.com:imranhsayed/rest-api-endpoints.git`
 
 ## Configure
 
@@ -55,8 +23,7 @@ export default clientConfig;
 ``` 
 
 ## Branches
-
-### 1. [login-with-jwt-wordpress-plugin](https://github.com/imranhsayed/react-with-wordpress/tree/login-with-jwt-wordpress-plugin)
+1. [login-with-jwt-wordpress-plugin](https://github.com/imranhsayed/react-with-wordpress/tree/login-with-jwt-wordpress-plugin)
 
 > A React App where you can login using the endpoint provided by `JWT Authentication for WP-API` WordPress Plugin.
 So you need to have this plugin installed on WordPress. The plugin's endpoint returns the user object and a jwt-token on success,
@@ -106,9 +73,7 @@ your request
 
 ```
 
-This repo also demonstrates how to create posts in React Application by sending request to protected endpoints ( passing the token in the header )
-
-### 2. [jwt-verify-with-node](https://github.com/imranhsayed/react-with-wordpress/tree/jwt-verify-with-node)  
+2. [jwt-verify-with-node](https://github.com/imranhsayed/react-with-wordpress/tree/jwt-verify-with-node)  
 
 > A React(front end) + Node(back end) application. It uses `jwt.sign()` ( from `jwtwebtoken` npm package ) to generate a token using the username and password
 sent from front end( React ) and returns it as a response, which we then store in localstorage to login the user.
@@ -123,18 +88,6 @@ new post id, or error if any.
 
 ## Commands
 
-1. Branch [master](https://github.com/imranhsayed/react-with-wordpress) and [build-app-for-heroku](https://github.com/imranhsayed/react-with-wordpress/tree/build-app-for-heroku)
-- `start` Runs node server for development ( in watch mode ). The server.js sends all front end route request to index.html and then all front end route requests is handled by reach router
-
-2. Branch [jwt-verify-with-node](https://github.com/imranhsayed/react-with-wordpress/tree/jwt-verify-with-node) and
-[login-with-jwt-wordpress-plugin](https://github.com/imranhsayed/react-with-wordpress/tree/login-with-jwt-wordpress-plugin)
-
 - `dev` Runs webpack dev server for development ( in watch mode )
-
-Common
 - `prod` Runs webpack in production mode
-
-## Free Courses
-
-[Codeytek](https://codeytek.com/)
 
