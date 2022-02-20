@@ -24,13 +24,15 @@ class Books extends Component{
       return(
         <div>
           {
-            books.map((data) => {
-              console.log(data);
+            books.map((data,key) => {
               return(
-                <BookItems 
-                  key={data.id} 
+                <BookItems
+                  key={key}
+                  id={data.id} 
                   title={data.title.rendered}
                   content = {data.content.rendered}
+                  featuredMedia = {data.featured_media}
+                  author = {data.author}
                 />
               )
             })
@@ -38,7 +40,9 @@ class Books extends Component{
         </div>
       )
     }
-    return <div>Loading...</div>
+    return(
+      <div>Loading...</div>
+    );
   }
 }
 
