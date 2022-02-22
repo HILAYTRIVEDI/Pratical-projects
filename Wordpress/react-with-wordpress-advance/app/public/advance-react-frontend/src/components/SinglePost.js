@@ -1,40 +1,26 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import Navigation from './Navigation';
 import axios from 'axios';
+import { useParams } from 'react-router';
 
-export class SinglePost extends Component {
-  constructor(props){
-    super(props)
-    this.state={
-        loading : false,
-        posts : {},
-        error: ""
-    }
+function SinglePost() {
+  const params = useParams();
+
+  const [first, setfirst] = useState({
+    loading : false,
+    posts : [] ,
+    error: ""
+  });
+
+  const fetchMyData = async () =>{
+    const
   }
-  componentDidMount(){
-    const wordPressSiteUrl = "http://advance-wordpress-with-react.local/";
-    console.log(this.props);
-    this.setState({
-        loading: true
-    },()=>{
-        axios.get(
-            `${wordPressSiteUrl}/wp-json/wp/v2/posts/`
-        )
-        .then(res=>{
-            this.setState({loading:false, posts:res.data})
-        })
-        .catch(err =>{
-            this.setState({ loading:false, error : err.response.data })
-        })
-    })
-  }
-  render() {
-    return (
-      <div>
-        <Navigation/>
-      </div>
-    )
-  }
+
+  return (
+    <div>
+      <Navigation/>
+    </div>
+  )
 }
 
 export default SinglePost
