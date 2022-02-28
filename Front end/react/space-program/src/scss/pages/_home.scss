@@ -1,0 +1,64 @@
+.home{
+    background-image: url(../../../public/assets/home/background-home-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding-top: calc(136px + 76px);
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        &--left{
+            width: 40%;
+            h5{
+                margin-bottom: 24px;
+                color: $secondary;
+                font-weight: normal;
+                line-height: 34px;
+                letter-spacing: 4.725px;
+            }
+            h1{
+                margin-bottom: 24px;
+                font-style: normal;
+                font-weight: normal;
+            }
+            p{
+                font-family: Barlow;
+                line-height: 32px;
+                color: $secondary;
+            }
+        }
+        &--right{
+            width: 40%;
+            text-align: right;
+            position: relative;
+            a{
+                display: inline-block;
+                width: 274px;
+                height: 290px;
+                border-radius: 50%;
+                background-color: $white;
+                position: relative;
+                z-index: 1;
+                box-shadow: 0px 0px 0px 0px rgba($color: $white, $alpha: 0.1);
+                transition: all 0.5s;
+                &::after{
+                    position: absolute;
+                    content: "EXPLORE";
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    z-index: 2;
+                    color: $primary;
+                    font-family: Bellefair;
+                    font-size: 32px;
+                    line-height: 37px;
+                    letter-spacing: 2px;
+                }
+               &:hover{
+                    box-shadow: 0px 0px 0px 50px rgba($color: $white, $alpha: 0.1);
+               }
+            }
+        }
+    }
+}
