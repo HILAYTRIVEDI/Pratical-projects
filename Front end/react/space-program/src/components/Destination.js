@@ -6,7 +6,7 @@ function Destination() {
         <div className="container">
             {data.destinations.map((planet,key) =>{
                 return(
-                    <div className="destination__content">
+                    <div className="destination__content" key={key}>
                         <h5 className="destination__content--heading">
                             <span>01</span>Pick Your Destination
                         </h5>
