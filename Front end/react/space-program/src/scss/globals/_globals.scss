@@ -22,24 +22,29 @@ html,body{
 
 // Typography
 
-h1,h2,h3,h4{
-    font-family: 'Bellefair', serif;
-}
-
 h1{
     font-size: 150px;
+    font-weight: normal;
+     font-family: 'Bellefair', serif;
 }
 h2{
     font-size: 100px;
+    font-weight: normal;
+    font-family: 'Bellefair', serif;
 }
 h3{
     font-size: 56px;
+    font-weight: normal;
+    font-family: 'Bellefair', serif;
 }
 h4{
     font-size: 32px;
+    font-weight: normal;
+    font-family: 'Bellefair', serif;
 }
 h5{
     font-size: 28px;
+    font-weight: normal;
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 4.75px;
 }
@@ -66,10 +71,12 @@ section {
 .subheading-primary{
     font-family: 'Bellefair', serif;
     font-size: 28px;
+    text-transform: uppercase;
 }
 
 .subheading-secondary{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 14px;
     letter-spacing: 2.35px;
+    text-transform: uppercase;
 }

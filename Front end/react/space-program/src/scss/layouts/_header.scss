@@ -10,6 +10,7 @@
     }
     &__logo{
         display: inline-block;
+        margin-left: -100px;
     }
     &__nav{
         position: relative;
@@ -52,10 +53,10 @@
             position: absolute;
             content: "";
             height: 1px;
-            width: 473px;
+            width: 585px;
             background-color: #ffffff;
             top: 48px;
-            left: -585px;
+            left: -690px;
             opacity: 0.3;
         }
     }
